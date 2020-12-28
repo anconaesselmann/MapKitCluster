@@ -1,0 +1,6 @@
+framework module MapKitCluster {
+  umbrella header "MapKitCluster-umbrella.h"
+
+  export *
+  module * { export * }
+}

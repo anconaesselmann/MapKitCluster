@@ -1,0 +1,6 @@
+framework module Pods_MapKitCluster_Tests {
+  umbrella header "Pods-MapKitCluster_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

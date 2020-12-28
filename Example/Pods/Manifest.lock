@@ -1,0 +1,16 @@
+PODS:
+  - MapKitCluster (0.1.0)
+
+DEPENDENCIES:
+  - MapKitCluster (from `../`)
+
+EXTERNAL SOURCES:
+  MapKitCluster:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MapKitCluster: b7a47e2ef5ed44e9b100e69d4c65fba0af3c1db9
+
+PODFILE CHECKSUM: 84ebe0679196cf182b4dd990eeab32a3bddff7dd
+
+COCOAPODS: 1.10.0
