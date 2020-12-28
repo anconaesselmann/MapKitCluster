@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MapKitCluster_Tests' do
+  pod 'MapKitCluster', :path => '../'
+  
+  
+end
