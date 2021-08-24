@@ -71,6 +71,20 @@ public extension MKMapView {
         }
     }
 
+    func update<T>(overlays: [T], done: (() -> Void)? = nil) where T: Hashable, T: MKOverlay {
+        let before = Set(self.overlays.compactMap({ $0 as? T }))
+        let after = Set(overlays)
+        let toKeep = before.intersection(after)
+        let toAdd = after.subtracting(toKeep)
+        let toRemove = before.subtracting(after)
+
+        OperationQueue.main.addOperation() { [weak self] in
+            self?.addOverlays(Array<T>(toAdd))
+            self?.removeOverlays(Array<T>(toRemove))
+            done?()
+        }
+    }
+
     var zoomScale: MKZoomScale {
         bounds.size.width / CGFloat(visibleMapRect.size.width)
     }
