@@ -5,7 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/MapKitCluster.svg?style=flat)](https://cocoapods.org/pods/MapKitCluster)
 [![Platform](https://img.shields.io/cocoapods/p/MapKitCluster.svg?style=flat)](https://cocoapods.org/pods/MapKitCluster)
 
-Inspired by https://thoughtbot.com/blog/how-to-handle-large-amounts-of-data-on-maps
+Inspired by [Theodore Calmes's blog post](https://thoughtbot.com/blog/how-to-handle-large-amounts-of-data-on-maps)
+
+For an example project [go here](https://github.com/anconaesselmann/ClusteredAnnotations/blob/main/README.md)
+
+![annotation_clistering](https://user-images.githubusercontent.com/5387946/130535874-85b5c1be-1312-490a-ad17-ffb964ead140.gif)
 
 ## Example
 
